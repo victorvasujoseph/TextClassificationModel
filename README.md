@@ -106,5 +106,8 @@ NLTK for providing robust text preprocessing tools.
 
 scikit-learn for making machine learning easy with its rich set of APIs for classification and model tuning.
 
+<img src="result/1.png" alt="My Image" width="700"/>
+<img src="result/2.png" alt="My Image" width="700"/>
+
 matplotlib for providing tools to create insightful visualizations.
 
