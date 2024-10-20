@@ -1,0 +1,17 @@
+Preprocessing,Vectorizer,Classifier,Best Parameters,Best Score,Fitting Time (seconds)
+Stemming,CountVectorizer,Logistic Regression,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.90736,37.91277313232422
+Stemming,CountVectorizer,Decision Tree,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8434399999999999,52.57779598236084
+Stemming,CountVectorizer,Multinomial NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8986666666666667,34.159175872802734
+Stemming,CountVectorizer,Bernoulli NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.9024533333333333,35.10718607902527
+Stemming,TfidfVectorizer,Logistic Regression,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.9040533333333333,34.828452825546265
+Stemming,TfidfVectorizer,Decision Tree,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8362133333333333,64.15518093109131
+Stemming,TfidfVectorizer,Multinomial NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8941066666666666,43.16490721702576
+Stemming,TfidfVectorizer,Bernoulli NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.9024533333333333,35.542150020599365
+Lemmatizing,CountVectorizer,Logistic Regression,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.90552,16.30026412010193
+Lemmatizing,CountVectorizer,Decision Tree,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8415733333333333,30.245803117752075
+Lemmatizing,CountVectorizer,Multinomial NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8945866666666666,13.407994985580444
+Lemmatizing,CountVectorizer,Bernoulli NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8994666666666666,13.983381986618042
+Lemmatizing,TfidfVectorizer,Logistic Regression,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.9018133333333332,14.495214939117432
+Lemmatizing,TfidfVectorizer,Decision Tree,"{'vectorizer__max_features': 1000, 'vectorizer__stop_words': None}",0.8322133333333334,41.56648588180542
+Lemmatizing,TfidfVectorizer,Multinomial NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8904533333333333,13.88644790649414
+Lemmatizing,TfidfVectorizer,Bernoulli NB,"{'vectorizer__max_features': 3000, 'vectorizer__stop_words': None}",0.8994666666666666,13.925168991088867
