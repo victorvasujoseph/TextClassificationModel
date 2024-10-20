@@ -78,29 +78,29 @@ Perform both stemming using NLTK’s SnowballStemmer and lemmatizing using WordN
 
 Use CountVectorizer and TfidfVectorizer to transform text data into numerical features. Parameters like stop_words and max_features are optimized.
 
-Classification:
+#### Classification:
 
 Use Logistic Regression, Decision Tree, Multinomial Naive Bayes, and Bernoulli Naive Bayes classifiers.
 
 Compare the classifiers using cross-validation and GridSearchCV to evaluate their performance in terms of accuracy and speed.
 
-Evaluation:
+#### Evaluation:
 
-Compare the models based on accuracy and fitting time.
+##### Compare the models based on accuracy and fitting time.
 
 Visualize the results with bar charts to understand the trade-off between accuracy and fitting time for each combination of preprocessing method, vectorizer, and classifier.
 
-Results and Conclusion
+##### Results and Conclusion
 
 After running the notebook, you will get a summary table of the best models, their parameters, and the accuracy scores. You can use this to determine the most suitable classifier for your text classification task.
 
-Project Enhancements
+##### Project Enhancements
 
 Additional Preprocessing: In the future, you can add more advanced text preprocessing techniques, such as removing punctuation, or using more advanced vectorization strategies like word embeddings.
 
 More Classifiers: You can extend the comparison by adding more classifiers, such as RandomForestClassifier, SVM, or even deep learning models.
 
-Acknowledgments
+#### Acknowledgments
 
 NLTK for providing robust text preprocessing tools.
 
